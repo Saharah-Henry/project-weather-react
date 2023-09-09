@@ -4,11 +4,10 @@ import Forecast from "./Forecast";
 import Navigation from "./Navigation";
 export default function Weather() {
   const [city, setCity] = useState("Paris");
-  const [message, setMessage] = useState(false);
+
   const [weather, setWeather] = useState("");
 
   function getWeather(response) {
-    setMessage(true);
     setWeather({
       temperature: Math.round(response.data.main.temp),
       description: response.data.weather[0].description,
