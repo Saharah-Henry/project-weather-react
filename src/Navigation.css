@@ -1,0 +1,19 @@
+.nav-link {
+  color: blue;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+body {
+  color: red;
+}
+.navbar-nav {
+  display: contents;
+  flex-direction: none;
+}
+ul {
+  list-style-type: none;
+  display: contents;
+  flex-direction: none;
+}
