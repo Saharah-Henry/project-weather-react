@@ -6,17 +6,37 @@ export default function Navigation() {
     <nav className="navbar ">
       <div className="container-fluid">
         <ul>
-          <li class="nav-item">
-            <a class="nav-link">Lisbon</a>
+          <li className="nav-item">
+            <a
+              className="nav-link"
+              href="https://github.com/Saharah-Henry/project-weather-react"
+            >
+              Lisbon
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link">Paris</a>
+          <li className="nav-item">
+            <a
+              className="nav-link"
+              href="https://github.com/Saharah-Henry/project-weather-react"
+            >
+              Paris
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link">Sydney</a>
+          <li className="nav-item">
+            <a
+              className="nav-link"
+              href="https://github.com/Saharah-Henry/project-weather-react"
+            >
+              Sydney
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link">San Francisco</a>
+          <li className="nav-item">
+            <a
+              className="nav-link"
+              href="https://github.com/Saharah-Henry/project-weather-react"
+            >
+              San Francisco
+            </a>
           </li>
         </ul>
       </div>

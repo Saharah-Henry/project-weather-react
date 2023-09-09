@@ -39,11 +39,11 @@ export default function Weather() {
               className="search-bar"
               onChange={updateCity}
             />
-            <button type="Submit" class="btn btn-primary">
+            <button type="Submit" className="btn btn-primary">
               {" "}
               Search
             </button>
-            <button type="submit" class="btn btn-success">
+            <button type="submit" className="btn btn-success">
               Current
             </button>
           </form>

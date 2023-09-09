@@ -5,9 +5,7 @@
   text-decoration: underline;
   color: blue;
 }
-body {
-  color: red;
-}
+
 .navbar-nav {
   display: contents;
   flex-direction: none;
